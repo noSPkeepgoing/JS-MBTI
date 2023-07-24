@@ -1,0 +1,98 @@
+{
+  "ISFJ": {
+    "movie": "하울의 움직이는 성",
+    "name": "소피",
+    "src": "/",
+    "description": "소피설명"
+  },
+  "INFJ": {
+    "movie": "센과 치히로의 행방불명",
+    "name": "하쿠",
+    "src": "/",
+    "description": "하쿠설명"
+  },
+  "INTJ": {
+    "movie": "천공의 성 라퓨타",
+    "name": "쉬타",
+    "src": "/",
+    "description": "쉬타설명"
+  },
+  "ISTJ": {
+    "movie": "반딧불이의 묘",
+    "name": "세이타",
+    "src": "/",
+    "description": "세이타설명"
+  },
+  "ISTP": {
+    "movie": "모노노케 히메",
+    "name": "산",
+    "src": "/",
+    "description": "샨설명"
+  },
+  "ISFP": {
+    "movie": "하울의 움직이는 성",
+    "name": "하울",
+    "src": "/",
+    "description": "하울설명"
+  },
+  "INFP": {
+    "movie": "모노노케 히메",
+    "name": "아시타카",
+    "src": "/",
+    "description": "아시타카설명"
+  },
+  "INTP": {
+    "movie": "마녀 배달부 키키",
+    "name": "톰보",
+    "src": "/",
+    "description": "톰보설명"
+  },
+  "ENFP": {
+    "movie": "센과 치히로의 행방불명",
+    "name": "치히로",
+    "src": "/",
+    "description": "치히로설명"
+  },
+  "ESFP": {
+    "movie": "벼랑 위의 포뇨",
+    "name": "포뇨",
+    "src": "/",
+    "description": "포뇨설명"
+  },
+  "ENTP": {
+    "movie": "마녀 배달부 키키",
+    "name": "지지",
+    "src": "/",
+    "description": "지지설명"
+  },
+  "ESTP": {
+    "movie": "천공의 성 라퓨타",
+    "name": "돌라",
+    "src": "/",
+    "description": "돌라설명"
+  },
+  "ESTJ": {
+    "movie": "모노노케 히메",
+    "name": "에보시",
+    "src": "/",
+    "description": "에보시설명"
+  },
+  "ENFJ": {
+    "movie": "마녀 배달부 키키",
+    "name": "키키",
+    "src": "/",
+    "description": "키키설명"
+  },
+  "ENTJ": {
+    "movie": "이웃집 토토로",
+    "name": "사츠키",
+    "src": "/",
+    "description": "샤츠키설명"
+  },
+  "ESFJ": {
+    "movie": "이웃집 토토로",
+    "name": "메이",
+    "src": "/",
+    "description": "메이설명"
+  }
+}
