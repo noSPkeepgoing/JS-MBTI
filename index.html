@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내가 지브리 등장인물이라면?</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <!-- 첫 화면 -->
+    <section class="intro container">
+      <h1 class="title">이거 완전 나 아니야?</h1>
+      <p class="description">
+        텔레비전📺 속에 내가🧒🏻 나왔으면~🎶🎵 <br />
+        지브리 영화 속에 내가 등장한다면? 어떤 캐릭터로 등장하게 될까🤔
+      </p>
+      <button class="start_btn">지금 알아보러 가기</button>
+    </section>
+
+    <!-- 질문지 -->
+    <section class="qna container hide">
+      <header>
+        <h1 class="question">EI질문내용1</h1>
+      </header>
+      <ul class="answers">
+        <li>
+          <input type="radio" id="answer_a" name="answer" value="a1" />
+          <label for="answer_a">E답변1</label>
+        </li>
+        <li>
+          <input type="radio" id="answer_b" name="answer" value="a2" />
+          <label for="answer_b">I답변2</label>
+        </li>
+      </ul>
+      <footer>
+        <button class="continue_btn">continue</button>
+      </footer>
+    </section>
+
+    <!-- 마지막 화면 -->
+    <section class="outro container hide">
+      <p class="description">알아냈어요! 당신은 바로...</p>
+      <button class="submit_btn">결과보러 가기!</button>
+    </section>
+
+    <!-- 결과 화면 -->
+    <section class="result container hide">
+      <h3 class="movie"></h3>
+      <h1 class="name"></h1>
+      <img alt="나와 어울리는 등장인물!" class="img" />
+      <p class="character description"></p>
+    </section>
+  </body>
+</html>
