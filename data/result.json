@@ -2,97 +2,97 @@
   "ISFJ": {
     "movie": "하울의 움직이는 성",
     "name": "소피",
-    "src": "/",
-    "description": "소피설명"
+    "src": "/images/characters/isfj.jpg",
+    "description": "소피는 타인을 향한 연민과 동정심이 있으면서도 친구를 보호할 때는 가차 없는 모습을 보인다거나, 조용하고 내성적인 반면 관계술이 뛰어나 인간관계를 잘 만들어가는 인물이에요. 당신과 닮았나요?"
   },
   "INFJ": {
     "movie": "센과 치히로의 행방불명",
     "name": "하쿠",
-    "src": "/",
-    "description": "하쿠설명"
+    "src": "/images/characters/infj.jpg",
+    "description": "'괴로워도 꾹 참고 기회를 기다리는 거야.', 하쿠는 한 곳에 몰두하는 경향으로 목적 달성에 필요한 주변적인 조건들을 경시하기 쉽고, 자기 내부의 갈등이 많고 복잡한 인물이에요. 하지만 동시에 풍부하고 감성적인 내적인 성격을 갖고 있어요. 당신과 닮아있나요?"
   },
   "INTJ": {
     "movie": "천공의 성 라퓨타",
-    "name": "쉬타",
-    "src": "/",
-    "description": "쉬타설명"
+    "name": "시타",
+    "src": "/images/characters/intj.jpg",
+    "description": "무스카 일당에게 납치당한 뒤 타고있던 비행선이 해적 도라 일당에게 기습당하자 모스 전신기로 모스 부호를 보내던 무스카의 머리를 술병으로 내려쳐 기절시키고 비행석을 되찾아 창문 밖으로 나간 시타! 시타는 방법을 찾는 과정에서 거절당하거나 규칙을 깨는 일을 두려워하지 않는 인물이에요. 당신과 닮았나요?"
   },
   "ISTJ": {
     "movie": "반딧불이의 묘",
     "name": "세이타",
-    "src": "/",
-    "description": "세이타설명"
+    "src": "/images/characters/isfj.jpg",
+    "description": "세츠코가 움직이지도 못할 정도로 기력이 쇠해지자, 세이타는 어떻게든 세츠코를 살리려고 노력했던 세이타! 신중하고 책임감이 강한 인물이에요. 당신과 닮아있나요?"
   },
   "ISTP": {
     "movie": "모노노케 히메",
     "name": "산",
-    "src": "/",
-    "description": "샨설명"
+    "src": "/images/characters/isfj.jpg",
+    "description": "옷코토누시를 습격하려는 사냥꾼들에게 경고할 때만 일반 사람과 대화하는 산, 산은 자신의 일과 관계되지 않는 이상 어떠한 상황에도 개입하지 않으려해요. 혹시 당신도?"
   },
   "ISFP": {
     "movie": "하울의 움직이는 성",
     "name": "하울",
-    "src": "/",
-    "description": "하울설명"
+    "src": "/images/characters/isfj.jpg",
+    "description": "이웃나라와의 전쟁을 거절하기위해 자신 대신 소피를 국왕에게 보낸 하울. 자신의 구역을 침범한 소피에게 화를 낸 하울. 하울은 갈등을 기피하며, 개인 프라이버시를 존중받길 원하는 인물이에요. 당신과 얼마나 닮아있나요?"
   },
   "INFP": {
     "movie": "모노노케 히메",
     "name": "아시타카",
-    "src": "/",
-    "description": "아시타카설명"
+    "src": "/images/characters/infp.jpg",
+    "description": "사슴신의 숲에서 신비로운 모노노케 히메(원령공주) 산을 만나 함께 다니면서 점차 그녀를 사랑하게 된 아시타카. 아시타카는 인간과 자연의 갈등 사이에서 중재자 역할을 하는 인물이에요. 당신과 얼마나 닮아있나요?"
   },
   "INTP": {
     "movie": "마녀 배달부 키키",
     "name": "톰보",
-    "src": "/",
-    "description": "톰보설명"
+    "src": "/images/characters/intp.jpg",
+    "description": "사람만한 크기의 프로펠러가 달린 자전거를 만들고, 비행기까지 만든 톰보! 혹시 당신도 톰보와 같이 지적호기심이 높은 편인가요?"
   },
   "ENFP": {
     "movie": "센과 치히로의 행방불명",
     "name": "치히로",
-    "src": "/",
-    "description": "치히로설명"
+    "src": "/images/characters/enfp.jpg",
+    "description": "신의 세계에서 높은 적응력을 보여준 치히로. 치히로는 가식적이지 않고, 위기 대처 능력이 뛰어나요. 또한 눈물도 많은 인물이죠. 혹시 당신도 그러한가요?"
   },
   "ESFP": {
     "movie": "벼랑 위의 포뇨",
     "name": "포뇨",
-    "src": "/",
-    "description": "포뇨설명"
+    "src": "/images/characters/esfp.jpg",
+    "description": "사교적이고 활동적이며 수용력이 강하고 친절하며 낙천적인 포뇨. 포뇨는 주위의 사람이나 일어나는 일에 대하여 관심이 많고, 매우 수다스러운 인물이에요. 당신과 얼마나 닮아있나요?"
   },
   "ENTP": {
     "movie": "마녀 배달부 키키",
     "name": "지지",
-    "src": "/",
-    "description": "지지설명"
+    "src": "/images/characters/entp.jpg",
+    "description": "키키의 소중한 친구 지지. 지지는 가끔씩 재치있고 기발한 방법으로 짓궂은 장난을 치기도 해요. 또 능글거리면서도 경쾌한 성격을 가지고 있죠! 당신과 딱이지 않나요?"
   },
   "ESTP": {
     "movie": "천공의 성 라퓨타",
-    "name": "돌라",
-    "src": "/",
-    "description": "돌라설명"
+    "name": "도라",
+    "src": "/images/characters/estp.jpg",
+    "description": "두려움을 모르고 과감한 해적 도라! 내기를 즐기고, 스릴를 사랑하는 당신과 닮지않았나요?"
   },
   "ESTJ": {
     "movie": "모노노케 히메",
     "name": "에보시",
-    "src": "/",
-    "description": "에보시설명"
+    "src": "/images/characters/estj.jpg",
+    "description": "강인하고 당당한 여걸이자 지도자로서 외부 세력에 대항해 타타라 마을을 지켜내는 에보시. 실질적이고 현실 감각이 뛰어나며 일을 조직하고 계획하여 추진시키는 능력이 있는 인물이에요. 당신과 닮았나요?"
   },
   "ENFJ": {
     "movie": "마녀 배달부 키키",
     "name": "키키",
-    "src": "/",
-    "description": "키키설명"
+    "src": "/images/characters/enfj.jpg",
+    "description": "키키는 온화하고 사교성이 풍부하고 동정심이 많은 인물이에요. 낯선 마을에서 적응하는데 고생도 하지만 결국엔 톰보와 마을 친구들과 친구들이 되죠! 당신과 얼마나 닮아있나요?"
   },
   "ENTJ": {
     "movie": "이웃집 토토로",
     "name": "사츠키",
-    "src": "/",
-    "description": "샤츠키설명"
+    "src": "/images/characters/entj.jpg",
+    "description": "시골 숲의 신인 토토로를 쫓을 정도로 모험심이 있고, 엉뚱하기도 하지만 이따금씩 동생인 메이에게 단호하게 행동하기도하는 사츠키. 당신과 닮았나요?"
   },
   "ESFJ": {
     "movie": "이웃집 토토로",
     "name": "메이",
-    "src": "/",
-    "description": "메이설명"
+    "src": "/images/characters/esfj.jpg",
+    "description": "사츠키의 동생인 메이는 아빠와 언니를 잘 따르는 귀여운 인물이에요. 메이는 다른 인물에게 관심을 쏟으며 나누고, 베푸는 인물이죠. 한 번 좋아하면 헌신을 다하는 메이! 당신도 그런가요?"
   }
 }

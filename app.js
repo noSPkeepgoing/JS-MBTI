@@ -53,7 +53,7 @@ const clearContent = () => {
   radioBtnB.checked = false;
 };
 const setContent = (num) => {
-  question.textContent = qna_data['q' + num].q;
+  question.innerHTML = qna_data['q' + num].q;
   answerA.textContent = qna_data['q' + num].a1.a;
   answerB.textContent = qna_data['q' + num].a2.a;
 };
