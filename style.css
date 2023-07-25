@@ -1,3 +1,170 @@
+* {
+  cursor: default;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #97cdff;
+  background-image: url('./images/background/ghibli.png');
+
+  overflow: hidden;
+}
+
+img {
+  width: 30%;
+  border: 0.2rem solid #777;
+  border-radius: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  margin: 2rem;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #97cdff;
+  box-shadow: 3px 3px #777;
+  border: none;
+  border-radius: 20px;
+  height: 2.5rem;
+  transition: all 0.1s;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(0.98);
+}
+
+.container {
+  margin: auto;
+  margin-top: 10vh;
+  padding: 3rem;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 15px 15px #777;
+}
+
 .hide {
   display: none;
+}
+
+/* intro */
+.intro .title {
+  color: #333;
+  font-size: 50px;
+  text-align: center;
+}
+
+.intro .description {
+  color: #222;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* question */
+.qna .question {
+  margin: 0 2.2rem;
+  color: #222;
+  font-size: 25px;
+  line-height: 1.3em;
+}
+
+.qna .answers {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.qna .answers > li {
+  line-height: 70px;
+}
+
+.qna .answers > li::after {
+  content: '';
+  margin-top: -10px;
+  display: block;
+  width: 95%;
+  border: #777 solid 1px;
+  opacity: 0.5;
+}
+
+.qna .answers > li > label {
+  display: inline-block;
+  width: 90%;
+  transition: 0.3s;
+}
+
+.qna .answers > li > label:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+[type='radio'] {
+  vertical-align: middle;
+  appearance: none;
+  border: 0.3em solid #777;
+  border-radius: 50%;
+  width: 1.25em;
+  height: 1.25em;
+  transition: all 0.3s;
+}
+
+[type='radio']:checked {
+  border: 0.4em solid #97cdff;
+}
+
+[type='radio']:checked + label {
+  font-weight: 700;
+}
+
+footer {
+  text-align: end;
+}
+footer .continue_btn {
+  width: 20%;
+}
+
+/* outro */
+.outro .description {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* result */
+.result {
+  align-items: center;
+}
+
+.result .movie {
+  margin: -5px 0;
+}
+
+.result .name {
+  color: #222;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.result .character {
+  text-align: center;
+  color: #555;
+  font-weight: 700;
+  font-size: 18px;
 }

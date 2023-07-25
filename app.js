@@ -148,6 +148,6 @@ const img = document.querySelector('.img');
 const setResult = (mbti) => {
   movie.textContent = result_data[mbti].movie;
   name.textContent = result_data[mbti].name;
-  character.textContent = result_data[mbti].description;
+  character.innerHTML = result_data[mbti].description;
   img.setAttribute('src', result_data[mbti].src);
 };
