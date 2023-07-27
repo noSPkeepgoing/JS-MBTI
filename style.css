@@ -154,6 +154,8 @@ footer .continue_btn {
 
 .result .movie {
   margin: -5px 0;
+  color: #555;
+  font-size: 16px;
 }
 
 .result .name {
