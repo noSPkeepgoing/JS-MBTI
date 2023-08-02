@@ -6,13 +6,6 @@ const introBox = document.querySelector('.intro');
 const questionBox = document.querySelector('.qna');
 const outroBox = document.querySelector('.outro');
 
-// intro 숨기고 question 보이기
-startBtn.addEventListener('click', () => {
-  introBox.classList.add('hide');
-  questionBox.classList.remove('hide');
-});
-
-//
 const question = document.querySelector('.question');
 const answerA = document.querySelector('label[for="answer_a"]');
 const answerB = document.querySelector('label[for="answer_b"]');
@@ -22,23 +15,38 @@ const radioBtnA = document.querySelector('#answer_a');
 const radioBtnB = document.querySelector('#answer_b');
 
 let q_num = 1;
+const Q_MAX_NUM = 13;
+
+// intro 숨기고 question 보이기, 첫질문 세팅
+startBtn.addEventListener('click', () => {
+  toggleHide(introBox);
+  toggleHide(questionBox);
+  setContent(q_num);
+});
+
+// 다음 질문지 세팅
 continueBtn.addEventListener('click', () => {
   if (radioBtnA.checked || radioBtnB.checked) {
     let seleted = radioBtnA.checked ? radioBtnA : radioBtnB;
     q_num++;
     selectRadio(seleted.value, q_num);
-    if (q_num < 13) {
+    if (q_num < Q_MAX_NUM) {
       clearContent();
       setContent(q_num);
     } else {
       // question 숨기고 outro 보이기
-      questionBox.classList.add('hide');
-      outroBox.classList.remove('hide');
+      toggleHide(questionBox);
+      toggleHide(outroBox);
     }
   } else {
     alert('선택된게 없어요😓');
   }
 });
+
+// container 보이기, 숨기기
+const toggleHide = (container) => {
+  container.classList.toggle('hide');
+};
 
 // 질문지 바꾸기
 const clearContent = () => {
