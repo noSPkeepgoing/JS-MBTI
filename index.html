@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>내가 지브리 등장인물이라면?</title>
     <link rel="stylesheet" href="./style.css" />
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./js/app.js"></script>
   </head>
   <body>
     <!-- 첫 화면 -->
@@ -29,15 +29,15 @@
       <ul class="answers">
         <li>
           <input type="radio" id="answer_a" name="answer" value="a1" />
-          <label for="answer_a"
-            >나와 같은 수습 마녀 친구들이 잔뜩 있는 밤이 화려한 도심</label
-          >
+          <label for="answer_a">
+            나와 같은 수습 마녀 친구들이 잔뜩 있는 밤이 화려한 도심
+          </label>
         </li>
         <li>
           <input type="radio" id="answer_b" name="answer" value="a2" />
-          <label for="answer_b"
-            >혼자만의 시간이 보장되는 작고 한적한 마을</label
-          >
+          <label for="answer_b">
+            혼자만의 시간이 보장되는 작고 한적한 마을
+          </label>
         </li>
       </ul>
       <footer>
@@ -48,15 +48,9 @@
     <!-- 마지막 화면 -->
     <section class="outro container hide">
       <p class="description">알아냈어요! 당신은 바로...</p>
-      <button class="submit_btn">결과보러 가기!</button>
-    </section>
-
-    <!-- 결과 화면 -->
-    <section class="result container hide">
-      <h3 class="movie"></h3>
-      <h1 class="name"></h1>
-      <img alt="나와 어울리는 등장인물!" class="img" />
-      <p class="character description"></p>
+      <a href="./result.html">
+        <button class="submit_btn">결과보러 가기!</button>
+      </a>
     </section>
   </body>
 </html>
