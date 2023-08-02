@@ -24,6 +24,7 @@ ul {
 
 button {
   margin: 2rem;
+  width: 90%;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -42,8 +43,12 @@ button:hover {
 }
 
 .container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: auto;
-  margin-top: 10vh;
   padding: 3rem;
   width: 70%;
   height: 70%;
@@ -150,6 +155,7 @@ footer .continue_btn {
 /* result */
 .result {
   align-items: center;
+  height: 85%;
 }
 
 .result .movie {
