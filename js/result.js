@@ -16,3 +16,5 @@ const setResult = (mbti) => {
 };
 
 setResult(mbti);
+
+// 공유하기

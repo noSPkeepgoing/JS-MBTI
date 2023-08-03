@@ -12,6 +12,10 @@ body {
   overflow: hidden;
 }
 
+a {
+  width: 100%;
+}
+
 img {
   width: 30%;
   border: 0.2rem solid #777;
@@ -91,12 +95,13 @@ button:hover {
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
 }
 
 .qna .answers > li {
   line-height: 70px;
+  text-wrap: nowrap;
 }
 
 .qna .answers > li::after {
@@ -175,4 +180,11 @@ footer .continue_btn {
   color: #555;
   font-weight: 700;
   font-size: 18px;
+}
+
+@media (max-width: 960px) {
+  /* question */
+  .qna .question {
+    font-size: 10px;
+  }
 }
