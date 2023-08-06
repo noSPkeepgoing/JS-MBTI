@@ -65,5 +65,5 @@ const submitBtn = document.querySelector('.submit_btn');
 
 submitBtn.addEventListener('click', () => {
   const mbti = setMbti();
-  localStorage.setItem('mbti', mbti);
+  location.assign(`${location.href}result.html?mbti=${mbti}`);
 });

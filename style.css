@@ -14,6 +14,7 @@ body {
 
 a {
   width: 100%;
+  text-align: center;
 }
 
 img {
@@ -160,7 +161,7 @@ footer .continue_btn {
 /* result */
 .result {
   align-items: center;
-  height: 85%;
+  height: 93%;
 }
 
 .result .movie {
@@ -182,10 +183,22 @@ footer .continue_btn {
   font-size: 18px;
 }
 
+.result .share_btn {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.result .share_btn:hover {
+  opacity: 1;
+}
+
+.result .share_btn,
+.result .retry_btn {
+  width: 50%;
+  margin: 10px auto;
+}
+
 @media (max-width: 960px) {
-  a {
-    text-align: center;
-  }
   button {
     margin: 0 auto;
     font-size: 17px;
@@ -239,5 +252,9 @@ footer .continue_btn {
   /* result */
   .result .character {
     font-size: 13px;
+  }
+
+  .result .share_btn {
+    margin-top: 20px;
   }
 }
