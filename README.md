@@ -1,4 +1,5 @@
 # Matching Charcter in Ghibli 🍿
+스터디 스프린트 토이 프로젝트!
 
 ## ✍️ 기획
 
@@ -6,7 +7,7 @@
 - fetch API의 사용
 - query string을 이용한 페이지간 통신
 
----
+
 
 ## 🔗 완성 링크
 
@@ -46,7 +47,7 @@
   - `retry_btn` 을 클릭하면 `index.html` 로 이동한다.
   - `share_btn` 을 클릭하면 `alert` 창을 띄우며 클립보드에 해당 `url` 을 저장한다.
 
----
+
 
 ## 👋 기술 스택
 
@@ -54,7 +55,6 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
 
----
 
 ## 👏 마무리
 
@@ -67,13 +67,15 @@
 
 ### ⚁ 기록
 
-- 🗓️ 23/07/24 ~ 🗓️ 23/07/27 - 1차 완
+- 🗓️ 23/07/24 ~ 🗓️ 23/07/27 - 1차 완  
   SPA로 구현하고 싶어 `display:none` 속성을 이용해 모든 컨테이너를 `index.html` 파일에 넣어줬었는데, 컨테이너들의 변화가 깔끔해보이긴 했으나, 너무 단조롭다는 느낌도 들었다.
-- 🗓️ 23/08/03 ~ 🗓️ 23/08/04 - 1차 리팩토링
+  
+- 🗓️ 23/08/03 ~ 🗓️ 23/08/04 - 1차 리팩토링  
   다시하기 기능을 추가하면 좋을 거 같아 `result.html` 을 만들어 결과 컨테이너를 분리해 주었다.
   컨테이너의 클래스를 추가하고 제거하는 기능이 반복되길래 `toggelHide` 함수를 만들어 사용해주었다.
   결과페이지를 따로 만들어주면서 js파일도 기능별로 구분해 주었다. 처음엔 `app.js` 와 `result.js` 두가지만 이용하려했지만 원하는 것만 `export` 할 수 없다는 걸 깨닫고 `app.js` , `result.js` , `calculate.js` , `data.js` 네개의 파일로 구분해주었다.
   `index.html` 에서 계산한 mbti를 `result.html` 파일에서 사용하기 위해 `localStorage` 를 이용해서 데이터를 `set`하고 `get`하였다.
-- 🗓️ 23/08/05 ~ 🗓️ 23/08/06 - 2차 리팩토링
+  
+- 🗓️ 23/08/05 ~ 🗓️ 23/08/06 - 2차 리팩토링  
   `app.js` → `index.js` 파일명을 좀 더 직관적으로 보이게 하고싶어 파일명을 변경했다.
   다른 사용자에게 내 결과화면을 공유하게 하고 싶어 해당 `url` 복사 버튼을 만들었는데 데이터를 `localStorage` 에서 읽어오다보니 문제가 생겼다. 해당 문제를 해결하기 위해서 `location` 을 이용해서 mbti 데이터를 `url` 에 담아 보내고, 결과 세팅도 `url` 에서 읽어와서 할 수 있도록 하였다.
